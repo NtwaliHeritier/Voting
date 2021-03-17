@@ -12,7 +12,7 @@ module.exports = {
     ropsten: {
       provider: () => {
         return new HDWalletProvider(
-          "93e3e4c36ff23aa2e8e9aff3356b3159069c0871ce86ce78dd7cac1c954c2876",
+          "",
           "https://ropsten.infura.io/v3/d5a734e233914fd883397f754561d61e"
         )
       },
